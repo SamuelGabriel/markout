@@ -7,7 +7,8 @@ def main():
     print inp
     filename = "output.html"
     file = open(filename,"w")
-    file.write(markdown2.markdown(inp))
+    file.write("<style>body {font-family: Helvetica, Arial, Sans-Serif;}</style>")
+    file.write(markdown2.markdown(inp,extras=["break-on-newline"]))
     file.close()
     webbrowser.open('file://' + os.path.realpath("output.html"))
     """
