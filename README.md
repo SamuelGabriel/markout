@@ -19,7 +19,7 @@ print("______")
 print("**by Sam**")
 ```
 becomes
-# Case 1
+### Case 1
 *Result* 1
 _______
 **by Sam**
