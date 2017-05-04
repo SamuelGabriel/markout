@@ -10,8 +10,5 @@ setup(
     keywords = ['testing', 'logging', 'markdown', 'beatiful'], # arbitrary keywords
     classifiers = [],
     install_requires=['markdown2'],
-    entry_points={
-        'console_scripts': [
-            'markout=markout',
-        ],
+    scripts = ['markout']
     },)
