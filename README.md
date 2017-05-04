@@ -14,12 +14,12 @@ or something else with STDOUT
 ## Result
 ```
 print("# Case 1")
-print("")
-print("----")
 print ("*Result*",1)
+print("______")
+print("**by Sam**")
 ```
 becomes
 # Case 1
-
-------
 *Result* 1
+_______
+**by Sam**
