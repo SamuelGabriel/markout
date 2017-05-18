@@ -4,6 +4,7 @@ import sys,os,markdown2
 
 def main():
     inp = sys.stdin.read()
+    inp.replace("\n","\n\n")
     print inp
     filename = "output.html"
     file = open(filename,"w")
