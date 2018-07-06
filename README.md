@@ -11,14 +11,19 @@ or
 python main.py | markout
 ```
 or something else with STDOUT
-## Result
+## Example
 ```
+# test.py
 print("## Case 1")
 print ("*Result*",1)
 print("______")
 print("**by Sam**")
 ```
-becomes
+running
+```
+python test.py | markout
+```
+results in a Webpage showing
 ## Case 1
 *Result* 1
 _______
